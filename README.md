@@ -22,6 +22,7 @@ Features of Kubernetes
 
 
 1. Automatic Binpacking
+![auto binpck](https://user-images.githubusercontent.com/55177909/75219036-b8dcbc80-57c1-11ea-8df5-79364c3a97c3.png)
  Kubernetes automatically packages your application and schedules the containers based on their requirements and available resources while not sacrificing availability. To ensure complete utilization and save unused resources, Kubernetes balances between critical and best-effort workloads.
 
 2. Service Discovery & Load balancing
