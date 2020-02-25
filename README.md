@@ -13,7 +13,7 @@ Keep in mind that, as the traffic increases, they even have to scale up the numb
 Well to be honest, I’m not sure it can be done. Even if it can be done, it is only then it’s only after loads of manual effort for managing those containers. So, the real question is, is it really worth it? Won’t automated intervention make life easier? Absolutely it will!
 That is why; the need for container management tools is imminent. Both “Docker Swarm” and “Kubernetes” are popular tools for Container management and orchestration. But, Kubernetes is the undisputed market leader. Partly because it is Google’s brainchild and partly because of its better functionality.
 
-
+![feature](https://user-images.githubusercontent.com/55177909/75218935-76b37b00-57c1-11ea-8ab9-9b62ade239c0.png)
 
 
 Features of Kubernetes
