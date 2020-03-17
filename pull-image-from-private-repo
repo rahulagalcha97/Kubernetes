@@ -1,0 +1,24 @@
+source - https://stackoverflow.com/questions/36232906/how-to-access-private-docker-hub-repository-from-kubernetes-on-vagrant
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: my-deploy
+ labels:
+   app: my-app
+spec:
+ replicas: 3
+ selector:
+  matchLabels:
+   app: my-app
+ template:
+  metadata:
+   labels:
+    app: my-app
+  spec:
+   containers:
+   - name: my-container
+     image: mayurdeshmukh7/myapp:2.0
+   imagePullSecrets:
+   - name: myregistry
+                
